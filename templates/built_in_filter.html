@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h2>{{dt|date:'y m l'}}</h2>
+    <!--    <h1>built_in_filter</h1>
+        <h2>{{dt|date:'Y D M'}}</h2><!--Y=it shows year like (2023) M=it shows starting 3 letters of month(Apr)  D=it shows starting 3 letters (fri i.e friday)-->
+        <h2>{{dt|date:'y d m'}}</h2>
+        <h2>{{data|lower}}</h2>
+        <h2>{{data|upper}}</h2>
+        <h2>{{data|capfirst}}</h2>
+        <h2>{{data|title}}</h2>
+        <h2>{{data|length}}</h2>
+        <h2>{{data|truncatewords:'1'}}</h2>
+        <h2>{{data|truncatechars:'7'}}</h2>
+        <h2>{{data|slice:'7'}}</h2>
+   
+
+
+
+    <!--pluralize functions(i.e filters)-->
+    <h2>I have {{c}} cat{{c|pluralize:'s'}}</h2>
+    <h2>I have {{m}} mango{{m|pluralize:'es'}}</h2>
+    <h2>This {{p}} marker{{p|pluralize}} {{p|pluralize:'is,are'}} mine</h2>
+
+    
+
+    <!--Day format-->
+    <h2>{{dt|date:'d'}}</h2>
+    <h2>{{dt|date:'jS'}}</h2><!--Day of the month without leading zeros.	1 to 31-->  <!-- S English ordinal suffix for day of the month, 2 characters.	st, nd, rd or th-->
+    
+    <!--Month format-->
+    <h2>{{dt|date:'m'}}</h2><!--Month, 2 digits with leading zeros.	01 to 12-->
+    <h2>{{dt|date:'n'}}</h2><!--Month without leading zeros.	1 to 12-->
+    <h2>{{dt|date:'b'}}</h2><!--Month, textual, 3 letters, lowercase.	jan-->
+    <h2>{{dt|date:'M'}}</h2><!--Month, textual, 3 letters.	Jan-->
+    <h2>{{dt|date:'F'}}</h2><!--Month, textual, long.	January-->
+
+    <!--Year format-->
+    <h2>{{dt|date:'y'}}</h2><!--Year, 2 digits.	23-->
+    <h2>{{dt|date:'Y'}}</h2><!--Year, 4 digits.	2023-->
+
+
+    <!--Week format-->
+    <h2>{{dt|date:'D'}}</h2><!--Day of the week, textual, 3 letters.	Fri-->
+    <h2>{{dt|date:'l'}}</h2><!--Day of the week, textual, long.	Friday-->
+
+    <!--Hours format-->
+    <h2>{{dt|date:'G'}}</h2><!--Hour, 24-hour format without leading zeros.	0 to 23-->
+    <h2>{{dt|date:'g'}}</h2><!--Hour, 12-hour format without leading zeros.	1 to 12-->
+    <h2>{{dt|date:'H'}}</h2><!--Hour, 24-hour format.	00 to 23-->
+    <h2>{{dt|date:'h'}}</h2><!--Hour, 12-hour format.	01 to 12-->
+    <h2>{{dt|date:'A'}}</h2><!--AM or PM.	AM-->
+    <h2>{{dt|date:'a'}}</h2><!--a.m. or p.m.	a.m.-->
+
+
+    <!--Minutes format-->
+    <h2>{{dt|date:'i'}}</h2><!--Minutes.	00 to 59-->
+
+
+    <!--Seconds format-->
+    <h2>{{dt|date:'s'}}</h2><!--Seconds, 2 digits with leading zeros.	00 to 59-->
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>
